@@ -1,0 +1,17 @@
+.body {
+    max-width: 1000px;
+    font-family: 'Lato', sans-serif;
+    margin: 5px auto;
+    padding: 40px 0px;
+    border: 4px double #130503cb;
+    border-radius: 5px;
+    text-align: center;
+    color: #1b1b1b;
+    background-color: #ffedd642;
+}
+
+.body--newFont {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+

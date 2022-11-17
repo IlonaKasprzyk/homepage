@@ -1,0 +1,39 @@
+
+.section {
+    background-color: #af969818;
+    padding: 5px 5px 5px 5px;
+    line-height: 1,5px;
+    }
+
+.section__heading {
+    color: #221d21;
+    font-size: 25px;
+    font-weight: 700;
+    text-shadow: 5px 5px 10px #38242473;
+}
+
+.section__linkYC {
+    text-decoration: none;
+    color: #1b1b1b;
+    font-weight: 900;
+}
+
+.section__linkYC:hover {
+    color: #230fd3;
+    font-weight: 900;
+}
+
+.section__education {
+    padding: 5px;
+}
+
+.section__list {
+    padding-left: 0px;
+}
+
+.section__listItem {
+    list-style: none;
+    text-align: center;
+    list-style-position: inside;
+    padding: 2px;
+}
