@@ -1,20 +1,36 @@
-console.log("Hello world!");
+{
+  const welcome = () => {
+    console.log("Hello world!");
+  }
 
-let photo = document.querySelector(".js-photo");
-let buttonText = document.querySelector(".js-buttonText");
-let buttonPhoto = document.querySelector(".js-buttonPhoto");
+  welcome();
 
-let body = document.querySelector(".js-body");
-let buttonFont = document.querySelector(".js-buttonFont");
+  const toggleFont = () => {
+    const body = document.querySelector(".js-body");
+    body.classList.toggle("body--newFont");
+  };
 
-buttonPhoto.addEventListener("click", () => {
+  const initFont = () => {
+    const buttonFont = document.querySelector(".js-buttonFont");
+    buttonFont.addEventListener("click", toggleFont);
+  }
+
+  initFont();
+
+  const hidePhoto = () => {
+    const photo = document.querySelector(".js-photo");
+    const buttonText = document.querySelector(".js-buttonText");
     photo.classList.toggle("header__photo--hidden");
-buttonText.innerText = photo.classList.contains("header__photo--hidden") ? "Pokaż" : "Usuń"
-});
+    buttonText.innerText = photo.classList.contains("header__photo--hidden") ? "Pokaż" : "Usuń"
+  }
 
-buttonFont.addEventListener("click", () => {
-  body.classList.toggle("body--newFont") ;
-})
+  const initPhoto = () => {
+    let buttonPhoto = document.querySelector(".js-buttonPhoto");
+    buttonPhoto.addEventListener("click", hidePhoto);
+  }
 
+  initPhoto();
+
+}
 
 
