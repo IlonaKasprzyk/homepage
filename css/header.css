@@ -1,24 +1,32 @@
 
 .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
     color: #130503cb;
-    font-size: 50px;
-    font-weight: 900;
+    font-weight: 700;
     font-style: inherit;
     text-shadow: 3px 3px 3px #afacac9d;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     padding-top: 10px;
-    line-height: 0;
+    line-height: 1,5;
+}
+
+.header--surname {
+    font-family: 'Allura', cursive;
+    font-size: 100px;
 }
 
 .header__button {
-    background-color: #38242436;
-    color: #221d21;
+    background-color: #4430305e;
+    color: #1b1b1b;
     font-weight: 700;
     font-size: 15px;
-    border: 1px solid #38242496;
+    border: 1px solid #38242471;
     border-radius: 8px;
-    padding: 7px;
-    margin-top: 1px;
+    padding: 7px ;
+    margin: 1px;
     margin-bottom: 1px;
 }
 
@@ -26,6 +34,8 @@
     width:200px;
     height:200px;
     box-shadow: 15px 15px 55px 1px #4d48429d;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .header__photo--hidden {

@@ -1,7 +1,6 @@
 .navigation {
-    background-color: #3824247e;
+    background-color: #4430305e;
     margin-top: 0px;
-    padding: 5px;
 }
 
 .navigation__list {
@@ -10,6 +9,10 @@
     font-weight: 700;
     line-height: 2;
     font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .navigation__listItem {
@@ -19,7 +22,7 @@
 
 
 .navigation__link {
-    border: 1px solid #24232294;
+    border: 0.5px solid #38242496;
     background-color: #faf8f6;
     color: #1b1b1b;
     margin: 5px;
