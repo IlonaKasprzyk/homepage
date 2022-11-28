@@ -8,6 +8,8 @@ For now, the site is simple and basic, but week by week I'm improving it more an
 - CSS
 - JavaScript
 - BEM
+- Flexbox
+- ES6+ features
 ## Check it out! :)
 https://ilonakasprzyk.github.io/homepage/
 
